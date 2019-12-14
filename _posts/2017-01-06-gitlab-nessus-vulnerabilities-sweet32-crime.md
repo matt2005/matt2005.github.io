@@ -4,7 +4,7 @@ title: Gitlab Nessus Vulnerabilities - Sweet32, CRIME
 date: 2017-01-06 12:22
 author: matt2005
 comments: true
-tags: [old blog, CRIME, GIT, GITLAB, Nessus, Security, SSL, SWEET32]
+tags: [old blog, needs content checking CRIME, GIT, GITLAB, Nessus, Security, SSL, SWEET32]
 ---
 <p style="margin:0;font-family:Calibri;font-size:11pt;">To resolve Nessus Vulnerabilities</p>
 <p style="margin:0;font-family:Calibri;font-size:11pt;">20007 SSL Version 2 and 3 Protocol Detection</p>

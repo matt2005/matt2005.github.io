@@ -4,7 +4,7 @@ title: My Raspberry PI Setup
 date: 2012-09-12 23:14
 author: matt2005
 comments: true
-tags: [old blog, Raspberry PI]
+tags: [old blog, needs content checking Raspberry PI]
 ---
 <code>
 apt-get update

@@ -4,7 +4,7 @@ title: IBM Bladecenter H NIC Mapping
 date: 2012-11-22 11:10
 author: matt2005
 comments: true
-tags: [old blog, Bladecenter, computer, ethernet connections, ethernet switches, H series, HS22, IBM, ibm bladecenter, IBM Bladecenter, software, technology, VMware]
+tags: [old blog, needs content checking Bladecenter, computer, ethernet connections, ethernet switches, H series, HS22, IBM, ibm bladecenter, IBM Bladecenter, software, technology, VMware]
 ---
 IBM Bladecenter H NIC Mapping
 

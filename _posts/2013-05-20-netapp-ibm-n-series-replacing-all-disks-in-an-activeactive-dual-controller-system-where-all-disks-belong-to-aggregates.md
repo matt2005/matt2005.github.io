@@ -4,7 +4,7 @@ title: NetApp / IBM N-Series - Replacing all disks in an active/active dual cont
 date: 2013-05-20 13:05
 author: matt2005
 comments: true
-tags: [old blog, Uncategorized]
+tags: [old blog, needs content checking Uncategorized]
 ---
  HOW DO I REPLACE ALL DISKS IN A TWO CONTROLLER ACTIVE/ACTIVE IBM N-SERIES OR NETAPP FAS STORAGE SYSTEM WHEN ALL DISKS ARE ALREADY ALLOCATED TO AGGREGATES?
 Need to replace all the disks in your NetApp FAS or IBM N-Series Storage System?

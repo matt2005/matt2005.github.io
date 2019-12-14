@@ -4,7 +4,7 @@ title: Symantec Endpoint Protection - Sweet32
 date: 2017-01-06 12:28
 author: matt2005
 comments: true
-tags: [old blog, Nessus, Security, SWEET32, Symantec Endpoint Protection]
+tags: [old blog, needs content checking Nessus, Security, SWEET32, Symantec Endpoint Protection]
 ---
 <p style="margin:0;font-family:Calibri;font-size:11pt;">To resolve Nessus vulnerabilities below</p>
 <p style="margin:0;font-family:Calibri;font-size:11pt;">42873 SSL Medium Strength Cipher Suites Supported</p>

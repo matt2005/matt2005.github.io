@@ -4,7 +4,7 @@ title: SQL Fails to start after SSL cert install
 date: 2017-01-06 12:19
 author: matt2005
 comments: true
-tags: [old blog, Nessus, Security, Self-signed Certificate, SQL, SSL, Windows]
+tags: [old blog, needs content checking Nessus, Security, Self-signed Certificate, SQL, SSL, Windows]
 ---
 <p style="line-height:15pt;font-family:Arial;font-size:10.5pt;color:#333333;margin:0 0 6pt;">I came into this issue when i was resolving Nessus Vulnerability.</p>
 

@@ -4,7 +4,7 @@ title: SSRS Subscription Auth Error
 date: 2015-12-23 16:14
 author: matt2005
 comments: true
-tags: [old blog, Uncategorized]
+tags: [old blog, needs content checking Uncategorized]
 ---
 I recently moved some SSRS subscriptions between domains, there is a oneway trust between them, however when publishing a report to the desination domain using a user in the source domain the subscription errors with the following.
 

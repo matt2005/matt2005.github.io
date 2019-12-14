@@ -4,7 +4,7 @@ title: NetApp Snapdrive for SQL
 date: 2014-12-15 12:06
 author: matt2005
 comments: true
-tags: [old blog, N3300, NetApp, NetApp\IBM, Snapdrive, SQL, VMware]
+tags: [old blog, needs content checking N3300, NetApp, NetApp\IBM, Snapdrive, SQL, VMware]
 ---
 Here's a quick post about an Issue I've just had. Suddenly Snapdrive for SQL stopped working and was reporting this in the logs.
 

@@ -4,7 +4,7 @@ title: PowerCLI Remove Detached LUN's
 date: 2013-01-21 15:40
 author: matt2005
 comments: true
-tags: [old blog, VMware]
+tags: [old blog, needs content checking VMware]
 ---
 Here is a quick draft post, will update later.
 

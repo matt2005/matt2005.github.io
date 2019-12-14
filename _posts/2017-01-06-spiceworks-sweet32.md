@@ -4,7 +4,7 @@ title: Spiceworks - SWEET32
 date: 2017-01-06 12:25
 author: matt2005
 comments: true
-tags: [old blog, Nessus, Security, Spiceworks, SWEET32]
+tags: [old blog, needs content checking Nessus, Security, Spiceworks, SWEET32]
 ---
 <p style="margin:0;font-family:Calibri;font-size:11pt;">To resolve Nessus Vulnerabilities</p>
 <p style="margin:0;font-family:Calibri;font-size:11pt;">42873 SSL Medium Strength Cipher Suites Supported</p>

@@ -4,7 +4,7 @@ title: Fix Splunk Nessus SSL Vulnerabilities
 date: 2017-01-06 12:08
 author: matt2005
 comments: true
-tags: [old blog, CRIME, Nessus, Security, Splunk, SSL, SWEET32]
+tags: [old blog, needs content checking CRIME, Nessus, Security, Splunk, SSL, SWEET32]
 ---
 <p style="margin:0;font-family:Calibri;font-size:11pt;">To Resolve the following Nessus Vulernabilites</p>
 <p style="margin:0;font-family:Calibri;font-size:11pt;"></p>

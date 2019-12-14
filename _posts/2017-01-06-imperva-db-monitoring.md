@@ -4,7 +4,7 @@ title: Imperva DB monitoring
 date: 2017-01-06 12:11
 author: matt2005
 comments: true
-tags: [old blog, Imperva, Security, SSL, Windows]
+tags: [old blog, needs content checking Imperva, Security, SSL, Windows]
 ---
 <p style="margin:0;font-family:Calibri;font-size:11pt;">Imperva Db monitor cannot decrypt data</p>
 <p style="margin:0;font-family:Calibri;font-size:11pt;"></p>

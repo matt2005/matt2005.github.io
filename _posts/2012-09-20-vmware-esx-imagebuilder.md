@@ -4,7 +4,7 @@ title: VMware ESX Imagebuilder
 date: 2012-09-20 12:35
 author: matt2005
 comments: true
-tags: [old blog, VMware]
+tags: [old blog, needs content checking VMware]
 ---
 Install VMware PowerCli
 

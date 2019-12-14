@@ -4,7 +4,7 @@ title: Windows 2012 - RDP password change even when NLA is enabled
 date: 2017-01-06 12:05
 author: matt2005
 comments: true
-tags: [old blog, NLA, RDP, Windows, Windows 2012]
+tags: [old blog, needs content checking NLA, RDP, Windows, Windows 2012]
 ---
 <p style="margin:0;font-family:Calibri;font-size:11pt;">If NLA is enabled on 2012 and your password expires you will be unable to login</p>
 <p style="margin:0;font-family:Calibri;font-size:11pt;"></p>
