@@ -7,7 +7,7 @@ layout: feed
 	<title>Matthew Hilton's Blog</title>
 	<link href="https://matt2005.github.ioblog/atom.xml" rel="self"/>
 	<link href="https://matt2005.github.ioblog"/>
-	<updated>{{ site.time | date_to_long_string: "ordinal" | date_to_xmlschema }}</updated>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>https://matt2005.github.ioblog</id>
 	<author>
 		<name>Matthew Hilton</name>
@@ -18,7 +18,7 @@ layout: feed
 		<entry>
 			<title>{{ post.title }}</title>
 			<link href="http://matt2005.github.io{{ post.url }}"/>
-			<updated>{{ post.date | date_to_long_string: "ordinal" | date_to_xmlschema }}</updated>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
 			<id>https://matt2005.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>

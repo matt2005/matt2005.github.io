@@ -18,7 +18,7 @@ subtitle:
     </a>
 
     <p class="post-meta">
-      Posted on {{ post.date | date_to_long_string: "ordinal" }}
+      Posted on {{ post.date | date: "%-d %B %Y" }}
     </p>
 
     <div class="post-entry">
