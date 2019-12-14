@@ -1,0 +1,62 @@
+{% if site.google_analytics %}
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', '{{ site.google_analytics }}', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+	<!-- Google Analytics Scroll tracking -->
+	<script>
+		document.addEventListener('scroll', function(){
+		 
+			var h =  document.documentElement,
+				b =  document.body,
+				st =  'scrollTop',
+				sh =  'scrollHeight';
+		 
+			var percent = parseInt ( (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100);
+		 
+		  console.log(percent + "%");
+		if (percent == 20)
+		{
+			ga('send', 'event', 'Scrolling', 'moreThan20%', '{{Page URL}}', { 'nonInteraction': 0 });
+		}
+		else if (percent == 30)
+		{
+			ga('send', 'event', 'Scrolling', 'moreThan30%', '{{Page URL}}', { 'nonInteraction': 0 });
+		}
+		else if (percent == 40)
+		{
+			ga('send', 'event', 'Scrolling', 'moreThan40%', '{{Page URL}}', { 'nonInteraction': 0 });
+		}
+		else if (percent == 50)
+		{
+			ga('send', 'event', 'Scrolling', 'moreThan50%', '{{Page URL}}', { 'nonInteraction': 0 });
+		}
+		else if (percent == 60)
+		{
+			ga('send', 'event', 'Scrolling', 'moreThan60%', '{{Page URL}}', { 'nonInteraction': 0 });
+		}
+		else if (percent == 70)
+		{
+			ga('send', 'event', 'Scrolling', 'moreThan70%', '{{Page URL}}', { 'nonInteraction': 0 });
+		}
+		else if (percent == 80)
+		{
+			ga('send', 'event', 'Scrolling', 'moreThan80%', '{{Page URL}}', { 'nonInteraction': 0 });
+		}
+		else if (percent == 90)
+		{
+			ga('send', 'event', 'Scrolling', 'moreThan90%', '{{Page URL}}', { 'nonInteraction': 0 });
+		}
+		   
+		});
+		 
+		</script>
+		<!-- End Google Analytics Scroll tracking -->
+{% endif %}

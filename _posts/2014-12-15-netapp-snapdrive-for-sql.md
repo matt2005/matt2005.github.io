@@ -1,0 +1,56 @@
+---
+layout: post
+title: NetApp Snapdrive for SQL
+date: 2014-12-15 12:06
+author: matt2005
+comments: true
+tags: [old blog, N3300, NetApp, NetApp\IBM, Snapdrive, SQL, VMware]
+---
+Here's a quick post about an Issue I've just had. Suddenly Snapdrive for SQL stopped working and was reporting this in the logs.
+
+[11:35:05.303] [SQLSERVER] *** SnapManager for SQL Server Report
+
+[11:35:05.303] [SQLSERVER] Getting SQL Server Database Information, please wait...
+[11:35:05.303] [SQLSERVER] Creating thread for enumerating all databases from all nodes...
+[11:35:05.303] [SQLSERVER] Waiting for the threads to finish enum all databases...
+[11:35:05.304] [SQLSERVER] Get database and LUN information...
+[11:35:05.304] [SQLSERVER] Getting virtual disks information...
+
+[11:35:05.304] [SQLSERVER] Starting SDAPI storage enumeration...
+[11:35:08.331] [SQLSERVER] Querying SQL Server instances installed...
+[11:35:08.334] [SQLSERVER] Creating threads for enumerating databases of different SQL Server instances.
+[11:35:08.334] [SQLSERVER] Waiting for the threads to finish enumerating databases.
+[11:35:09.251] [SQLSERVER] [SMO] Connecting to SQL Server instance - SQLSERVER...
+[11:35:09.252] [SQLSERVER] [SMO] Querying database information...
+[11:35:10.386] [SQLSERVER] All threads finished enumerating databases.
+[11:35:10.387] [SQLSERVER] Validating database configuration...
+[11:35:10.387] [SQLSERVER] Setting database disk configuration...
+[11:35:10.387] [SQLSERVER] Setting database locating on SQLRoot path...
+[11:35:10.388] [SQLSERVER] Querying database disk volume configuration...
+[11:35:10.388] [SQLSERVER] Getting SnapInfo directories configuration...
+
+[11:35:10.390] [SQLSERVER] Checking dataset availability, connecting to SnapDrive...
+[11:35:10.831] [SQLSERVER] Dataset feature is currently unavailable.
+[11:35:10.831] [SQLSERVER] Getting SnapManager dataset info from...
+[11:35:10.831] [SQLSERVER] Dataset info file has not yet created.
+[11:35:10.833] [SQLSERVER] Database requested has not been configured for backup.
+This database is marked as:Database file is on unsupported volume, possibly local disk..
+Server:SQLSERVER Database:DATABASE.
+This Database will be skipped.
+[11:35:10.833] [SQLSERVER] Error Code: 0xc0040900
+Unable to find any valid databases to be backed up.
+
+[11:35:10.834] [SQLSERVER] Preparing for sending filer AutoSupport...
+[11:35:10.834] [SQLSERVER]
+[11:35:10.834] [SQLSERVER]
+[11:35:10.834] [SQLSERVER]
+
+After lots of digging I noticed in the filer audit.log there was no entries for the login. This go me thinking... Can the SQL server see the filer? Answer was no, I attempted to resolve the filer's name from the SQL server and it wouldn't resolve.
+
+I checked DNS and it had lost the filer's dns record.
+
+I put it back in and it's all working now.
+
+Please note that the above error also happens if the credentials are incorrect.
+
+**Snapdrive password for filer must be =&lt; 14 Character otherwise SnapDrive truncates it to 14 Chars.
