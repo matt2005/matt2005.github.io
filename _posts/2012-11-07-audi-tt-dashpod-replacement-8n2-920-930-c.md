@@ -21,11 +21,12 @@ Heres what I did, well as much as I can remember as was getting annoyed with it.
 First my cluster was showing as a new/replacement cluster not adapted. This info is found by xxxxxxxxxxxxx in the extra info and measuring blocks 023.
 In the third column (Immobiliser status) it should display 4 (New or replacement part cluster, not matched/ adapted), if not it'll be one of the following
 
-| Value | Status                                              |
-| ----- | --------------------------------------------------- |
-| 5     | Customer service locked, Adaptation data programmed |
-| 6     | Immobilizer adapted, normal operating condition     |
-| 7     | Key adaptation in progress via scan-tool            |
+| Value | Status                                                |
+| ----- | ----------------------------------------------------- |
+| 4     | New or replacement part cluster, not matched/ adapted |
+| 5     | Customer service locked, Adaptation data programmed   |
+| 6     | Immobilizer adapted, normal operating condition       |
+| 7     | Key adaptation in progress via scan-tool              |
 
 # Procedure
 
