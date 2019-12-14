@@ -4,9 +4,10 @@ title: My Raspberry PI Setup
 date: 2012-09-12 23:14
 author: matt2005
 comments: true
-tags: [old blog, needs content checking Raspberry PI]
+tags: [old blog, Raspberry PI]
 ---
-<code>
+
+```bash
 apt-get update
 apt-get upgrade
 apt-get dist-upgrade
@@ -14,13 +15,16 @@ apt-get install git-core wget ca-certificates binutils -y
 wget http://goo.gl/1BOfJ -O /usr/bin/rpi-update &amp;&amp; chmod +x /usr/bin/rpi-update
 rpi-update 
 nano /boot/config.txt
-</code>
+```
+
 Add the following in to the file for 128MB GPU if 256MB Pi or 256MB GPU for 512MB Pi
-<code>
+
+```bash
 gpu_mem_256=128
 gpu_mem_512=256
-</code>
-<code>
+```
+
+```bash
 echo "CONF_SWAPSIZE=1024" &gt; /etc/dphys-swapfile
 dphys-swapfile setup
 dphys-swapfile swapon
@@ -32,16 +36,17 @@ sed -i 's/sortstrategy = 3/sortstrategy = 0/g'  /etc/preload.conf
 apt-get install tightvncserver -y
 vncserver :1 -geometry 1024x600 -depth 16 -pixelformat rgb565
 nano /etc/profile
-</code>
+```
+
 ----------add startx to end of file
-<code>
+```bash
 crontab -e
-</code>
+```
 ----------add following line
-<code>
+```bash
 @reboot su -c "vncserver :1 -geometry 1024x600 -depth 16 -pixelformat rgb565" pi
-</code>
-<code>
+```
+```bash
 wget https://github.com/rg3/youtube-dl/raw/2012.02.27/youtube-dl
 chmod +x youtube-dl
 cp youtube-dl /usr/bin/youtube-dl
@@ -49,9 +54,9 @@ sudo apt-get install python-setuptools -y
 wget http://pypi.python.org/packages/source/w/whitey/whitey-0.1.tar.gz
 tar -zxvf whitey-0.1.tar.gz
 nano ./whitey-0.1/src/yt/__init__.py
-</code>
+```
 --------------edit 'mplayer and switches to omxplayer
-<code>
+```bash
 cd whitey-0.1/
 sudo python setup.py install
 sed -i 's/PLAYER_CORE_DVDPLAYER/PLAYER_CORE_AUTO'
@@ -91,56 +96,56 @@ ln -s /usr/bin/get_iplayer/get_iplayer iplayer
 # create cron.4hourly
 mkdir /etc/cron.4hourly
 chmod 755 /etc/cron.4hourly
-</code>
+```
 -----------------/etc/cron.4hourly/iplayer_pvr---------------
-<code>
+```bash
 #!/bin/sh
 /usr/bin/get_iplayer/get_iplayer --pvr
-</code>
+```
 -------------------------------------------------------------
-<code>
+```bash
 chmod 755 /etc/cron.4hourly/iplayer_pvr
-</code>
+```
 -----------------/etc/cron.daily/iplayer_refresh_feeds-------
-<code>
+```bash
 #!/bin/sh
 /usr/bin/get_iplayer/get_iplayer --type=tv,radio --refresh-future --refresh
-</code>
+```
 -------------------------------------------------------------
-<code>
+```bash
 chmod 755 /etc/cron.daily/iplayer_refresh_feeds
-</code>
+```
 -----------------/etc/cron.daily/iplayer_update_metadata-----
-<code>
+```bash
 #!/bin/sh
 /usr/bin/get_iplayer/get_iplayer  --thumbnail-only --history
 /usr/bin/get_iplayer/get_iplayer --metadata-only --metadata=generic --history
-</code>
+```
 -------------------------------------------------------------
-<code>
+```bash
 chmod 755 /etc/cron.daily/iplayer_update_metadata
-</code>
-<code>
+```
+```bash
 # create cron.nightly
 mkdir /etc/cron.nightly
 chmod 755 /etc/cron.nightly
-</code>
+```
 -----------------/etc/cron.nightly/iplayer_cleanup_partial_downloads-------
-<code>
+```bash
 #!/bin/sh
 find /media/iplayer/tv -name *.partial.mp4.flv -exec rm -v {} \;
-</code>
+```
 -------------------------------------------------------------
-<code>
+```bash
 chmod 755 /etc/cron.nightly/iplayer_cleanup_partial_downloads
-</code>
+```
 add the following to /etc/crontab
 -----------------------------------
-<code>
+```bash
 40 0,4,8,10,14,18,22 * * * root test -x /usr/sbin/anacron || ( cd / &amp;&amp; run-parts --report /etc/cron.4hourly )
-</code>
+```
 -----------------------------------
-<code>
+```bash
 apt-get install libpcre3 -y
 apt-get purge omxplayer -y
 wget http://omxplayer.sconde.net/builds/omxplayer_0.2.1~git20120812~231c08b4_armhf.deb
@@ -152,23 +157,25 @@ mkdir -p /media/HardDrive
 chmod 755 /media/HardDrive
 nano /etc/fstab
 nano /etc/minidlna.conf
-</code>
+```
 ----Add
-<code>
+```bash
 media_dir=/media
 # Change db_dir so that the database is saved across reboots
 db_dir=/var/lib/minidlna
 # Uncomment log_dir for now in case we hit problems
 log_dir=/var/log
-</code>
+```
 -----------------------------
-<code>
+```bash
 cupdate-rc.d minidlna defaults
 service minidlna start
-</code>
+```
 if you need to edit minidlna.conf after saving run
-<code>
+```bash
 service minidlna force-reload
-</code>
+```
 to test 4hourly run
-<code>run-parts --verbose /etc/cron.4hourly</code>
+```bash
+run-parts --verbose /etc/cron.4hourly
+```
