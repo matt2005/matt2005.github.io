@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-subtitle: Subtitle
+subtitle: 
 ---
 
 <div class="posts-list">
@@ -18,7 +18,7 @@ subtitle: Subtitle
     </a>
 
     <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
+      Posted on {{ post.date | date_to_long_string: "ordinal" }}
     </p>
 
     <div class="post-entry">
