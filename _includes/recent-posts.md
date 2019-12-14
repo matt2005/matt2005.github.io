@@ -1,0 +1,8 @@
+* 2019-12-14 [Moved from wordpress](/2019-12-14-Moved-from-wordpress/?utm_source=blog&utm_medium=blog&utm_content=recent)
+* 2017-01-06 [Windows 2012 - RDP password change even when NLA is enabled](/2017-01-06-windows-2012-rdp-password-change-even-when-nla-is-enabled/?utm_source=blog&utm_medium=blog&utm_content=recent)
+* 2017-01-06 [Symantec Endpoint Protection - Sweet32](/2017-01-06-symantec-endpoint-protection-sweet32/?utm_source=blog&utm_medium=blog&utm_content=recent)
+* 2017-01-06 [Fails to start after SSL cert install](/2017-01-06-sql-fails-to-start-after-ssl-cert-install/?utm_source=blog&utm_medium=blog&utm_content=recent)
+* 2017-01-06 [Spiceworks - SWEET32](/2017-01-06-spiceworks-sweet32/?utm_source=blog&utm_medium=blog&utm_content=recent)
+* 2017-01-06 [Imperva DB monitoring](/2017-01-06-imperva-db-monitoring/?utm_source=blog&utm_medium=blog&utm_content=recent)
+* 2017-01-06 [Gitlab Nessus Vulnerabilities - Sweet32, CRIME](/2017-01-06-gitlab-nessus-vulnerabilities-sweet32-crime/?utm_source=blog&utm_medium=blog&utm_content=recent)
+* 2017-01-06 [Fix Splunk Nessus SSL Vulnerabilities](/2017-01-06-fix-splunk-nessus-ssl-vulnerabilities/?utm_source=blog&utm_medium=blog&utm_content=recent)

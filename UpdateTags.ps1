@@ -5,7 +5,7 @@ $postList = LS $path -Filter *.md
 $template = @'
 ---
 layout: post
-title: "{Title:Sample: Sample Description}"
+title: {Title:Sample: Sample Description}
 date: {Date:2019-11-30}
 tags: [{Tags:Template}]
 ---
