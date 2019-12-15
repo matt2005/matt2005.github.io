@@ -4,11 +4,13 @@ title: PowerCLI Remove Detached LUN's
 date: 2013-01-21 15:40
 author: matt2005
 comments: true
-tags: [old blog, needs content checking VMware]
+tags: [old blog, VMware]
 ---
+
 Here is a quick draft post, will update later.
 
-<code>#################################################
+```powershell
+#################################################
 # Add Vmware Powercli snapin
 If ((Get-PSSnapin "VMware.VimAutomation.Core" -ErrorAction SilentlyContinue) -eq $null) {
 Add-PSSnapin "VMware.VimAutomation.Core"
@@ -58,4 +60,5 @@ Start-sleep -s 1
 }
 $esxhostname=$null
 $counter++
-}</code>
+}
+```

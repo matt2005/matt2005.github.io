@@ -4,11 +4,12 @@ title: PowerCLI Remove not connected LUN's
 date: 2013-01-21 15:41
 author: matt2005
 comments: true
-tags: [old blog, needs content checking VMware]
+tags: [old blog, VMware]
 ---
 Quick post, will update later
 
-<code>#################################################
+```powershell
+#################################################
 # Add Vmware Powercli snapin
 If ((Get-PSSnapin "VMware.VimAutomation.Core" -ErrorAction SilentlyContinue) -eq $null) {
 Add-PSSnapin "VMware.VimAutomation.Core"
@@ -37,4 +38,5 @@ $esxcli.storage.core.device.set($device_id,"IsOffline",$null,"off")
 $esxcli.storage.core.device.set($device_id,"IsOffline",$null,"on")
 # Rescan All HBA's
 Get-VMHostStorage -VMHost $vmhost -RescanAllHBA
-}</code>
+}
+```
