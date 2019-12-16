@@ -12,6 +12,15 @@ title: {0}
 date: {1}
 tags: [{2}]
 ---
+
+Post Description
+
+# Index
+
+* TOC
+{{:toc}}
+
+# Content
 '@ 
 
 $output = $template -f $title, $date, ($tags -join ',')
