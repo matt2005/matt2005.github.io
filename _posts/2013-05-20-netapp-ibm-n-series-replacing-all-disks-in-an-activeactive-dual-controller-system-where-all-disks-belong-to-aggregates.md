@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NetApp / IBM N-Series - Replacing all disks in an active/active dual controller system where all disks belong to aggregates.
+title: "NetApp / IBM N-Series - Replacing all disks in an active/active dual controller system where all disks belong to aggregates."
 date: 2013-05-20 13:05
 author: matt2005
 comments: true

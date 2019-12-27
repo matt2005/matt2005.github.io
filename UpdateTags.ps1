@@ -5,7 +5,7 @@ $postList = LS $path -Filter *.md
 $template = @'
 ---
 layout: post
-title: {Title:Sample: Sample Description}
+title: "{Title:Sample: Sample Description}"
 date: {Date:2019-11-30}
 tags: [{Tags:Template}]
 ---
@@ -53,7 +53,7 @@ $taginfo = foreach($key in $keyList)
 Set-Content -Path $tagFile -Value @'
 ---
 layout: page
-title: Tags
+title: "Tags"
 ---
 This is a collection of all the tags I use in my blog and links back to the pages that use them.
 

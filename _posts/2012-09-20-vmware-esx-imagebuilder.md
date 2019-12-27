@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VMware ESX Imagebuilder
+title: "VMware ESX Imagebuilder"
 date: 2012-09-20 12:35
 author: matt2005
 comments: true

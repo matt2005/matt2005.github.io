@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows 2012 - RDP password change even when NLA is enabled
+title: "Windows 2012 - RDP password change even when NLA is enabled"
 date: 2017-01-06 12:05
 author: matt2005
 comments: true

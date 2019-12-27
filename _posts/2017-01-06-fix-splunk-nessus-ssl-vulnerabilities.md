@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fix Splunk Nessus SSL Vulnerabilities
+title: "Fix Splunk Nessus SSL Vulnerabilities"
 date: 2017-01-06 12:08
 author: matt2005
 comments: true

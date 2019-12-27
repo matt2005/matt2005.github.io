@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spiceworks - SWEET32
+title: "Spiceworks - SWEET32"
 date: 2017-01-06 12:25
 author: matt2005
 comments: true

@@ -7,7 +7,7 @@ $lineTemplate = '* {0} [{1}](/{2}/?utm_source=blog&utm_medium=blog&utm_content=r
 $template = @'
 ---
 layout: post
-title: {Title:Powershell: PSGraph, A graph module built on GraphViz}
+title: "{Title:Powershell: PSGraph, A graph module built on GraphViz}"
 date: {Date:2017-01-30}
 tags: [{Tags:PowerShell,PSGraph,GraphViz}]
 ---

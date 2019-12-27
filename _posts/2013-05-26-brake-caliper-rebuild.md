@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Brake Caliper rebuild
+title: "Brake Caliper rebuild"
 date: 2013-05-26 16:19
 author: matt2005
 comments: true

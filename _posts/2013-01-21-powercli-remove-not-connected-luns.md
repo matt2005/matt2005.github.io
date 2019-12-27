@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PowerCLI Remove not connected LUN's
+title: "PowerCLI Remove not connected LUN's"
 date: 2013-01-21 15:41
 author: matt2005
 comments: true

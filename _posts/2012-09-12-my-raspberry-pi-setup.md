@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Raspberry PI Setup
+title: "My Raspberry PI Setup"
 date: 2012-09-12 23:14
 author: matt2005
 comments: true

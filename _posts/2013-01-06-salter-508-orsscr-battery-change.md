@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Salter 508 ORSSCR Battery change
+title: "Salter 508 ORSSCR Battery change"
 date: 2013-01-06 20:34
 author: matt2005
 comments: true

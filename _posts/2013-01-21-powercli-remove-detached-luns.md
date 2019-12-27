@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PowerCLI Remove Detached LUN's
+title: "PowerCLI Remove Detached LUN's"
 date: 2013-01-21 15:40
 author: matt2005
 comments: true

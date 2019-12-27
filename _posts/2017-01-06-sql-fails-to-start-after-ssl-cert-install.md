@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL Fails to start after SSL cert install
+title: "SQL Fails to start after SSL cert install"
 date: 2017-01-06 12:19
 author: matt2005
 comments: true

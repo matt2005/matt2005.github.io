@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Clear bad sector count on NTFS drive
+title: "Clear bad sector count on NTFS drive"
 date: 2012-05-18 19:37
 author: matt2005
 comments: true

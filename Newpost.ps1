@@ -8,7 +8,7 @@ $date=(Get-Date -Format "yyyy-MM-dd")
 $template = @'
 ---
 layout: post
-title: {0}
+title: "{0}"
 date: {1}
 tags: [{2}]
 ---

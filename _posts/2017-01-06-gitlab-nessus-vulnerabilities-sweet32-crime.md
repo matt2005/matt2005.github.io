@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gitlab Nessus Vulnerabilities - Sweet32, CRIME
+title: "Gitlab Nessus Vulnerabilities - Sweet32, CRIME"
 date: 2017-01-06 12:22
 author: matt2005
 comments: true

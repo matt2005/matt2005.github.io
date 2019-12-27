@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Symantec Endpoint Protection - Sweet32
+title: "Symantec Endpoint Protection - Sweet32"
 date: 2017-01-06 12:28
 author: matt2005
 comments: true

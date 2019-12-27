@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SSRS Subscription Auth Error
+title: "SSRS Subscription Auth Error"
 date: 2015-12-23 16:14
 author: matt2005
 comments: true
