@@ -16,13 +16,13 @@ Repost from https://m0agx.eu/2017/12/27/reading-obd2-data-without-elm327-part-1-
 
 ## Reading OBD2 data without ELM327, part 1 – CAN
 
-**Originally Posted on 2017-12-27 at https://m0agx.eu/2017/12/27/reading-obd2-data-without-elm327-part-1-can/**
+**Originally Posted on 2017-12-27 at [Original Post]**
 
 All modern cars have an OBD2 diagnostic connector that allows reading many engine and drivetrain parameters like RPM, vehicle speed, temperatures etc.
 
 Most of car interfaces use a special protocol translating chip like ELM327 or STN1110 to convert different vehicle protocols (that depend on the age and brand of the car) into an easier to use serial protocol with AT-commands.
 
-I wanted to build a datalogger that would fit into a OBD2 connector. There was no space to fit my microcontroller and another chip to do protocol conversion, so I investigated and reverse-engineered the most common OBD2 protocols to be able to implement them directly on my MCU.
+I wanted to build a datalogger that would fit into a OBD2 connector. There was no space to fit my microcontroller and another chip to do protocol conversion, so I investigated and reverse-engineered the most common OBD2 protocols to be able to **implement them directly on my MCU**.
 
 This is the first post in series about OBD2. Second one is here.
 
@@ -34,7 +34,7 @@ There are several physical layer (think “the wires”) standards (CAN, K-Line,
 
 ## CAN bus
 
-CAN bus standard allows many devices to send and receive messages over a single (twisted) pair of wires. Each message has a message identifier (11 or 29 bit long), length field and up to 8 payload bytes (+some other flags that are not needed for OBD2). There is no notion of sender or receiver. The message ID is used to distinguish the source (or destination).
+CAN bus standard allows many devices to send and receive messages over a single (twisted) pair of wires. Each message has a **message identifier** (11 or 29 bit long), length field and **up to 8 payload bytes** (+some other flags that are not needed for OBD2). There is no notion of sender or receiver. The message ID is used to distinguish the source (or destination).
 
 Devices connected to a CAN bus must have a CAN transceiver (can be thought of similar to an RS-485 driver) and a CAN controller. The transceiver is always a separate chip. The controller may be integrated into a microcontroller or be a separate chip.
 
@@ -62,20 +62,20 @@ PID message request (bytes):
 For example to request mode 0x01 PID 0x0C (RPM) simply send:
 0x02 0x01 0x0C 0x00 0x00 0x00 0x00 0x00
 
-Message ID must be 0x7DF for standard (11 bit) addressing and 0x18DB33F1 for extended (29 bit) addressing. Each message will be acknowledged by the car.
+Message ID must be **0x7DF** for standard (11 bit) addressing and **0x18DB33F1** for extended (29 bit) addressing. Each message will be acknowledged by the car.
 
 ## PID response
 
-The response will carry a message ID of 0x7E8 (standard addressing) or 0x18DAF111 (extended), so the CAN controller receive filter must pass those message IDs. Example:
+The response will carry a message ID of **0x7E8** (standard addressing) or **0x18DAF111** (extended), so the CAN controller receive filter must pass those message IDs. Example:
 0x04 0x41 0x0C 0x31 0x64 0x00 0x00 0x00
 
 First byte is the length of the payload field (in this case 4 bytes are valid), second byte – it is a response to mode 0x01 PID, third byte is the PID (0x0C), bytes 0x31 and 0x64 are byes A and B of the PID.
 
-To get RPM you have to use a formula from table of PIDs. In this case the engine speed is (256 * 0x31 + 0x64)/4 = 3161 rpm.
+To get RPM you have to use a formula from table of PIDs [PID Table]. In this case the engine speed is (256 * 0x31 + 0x64)/4 = 3161 rpm.
 
 ## Summary
 
-Everything you need to get live OBD2 data from your car is to send a simple CAN frame and wait for the response. You don’t need a protocol translator like ELM327 or STN1110 (though they will support more protocols and vehicle types, including all communication quirks found through the years).
+**Everything you need to get live OBD2 data from your car is to send a simple CAN frame and wait for the response**. You don’t need a protocol translator like ELM327 or STN1110 (though they will support more protocols and vehicle types, including all communication quirks found through the years).
 
 I have described only getting data for mode 01 (mode 02 is identical). Other modes may require different data formats. For example getting the VIN number (due to its length) is more complicated, because it has to be split between many CAN frames.
 
@@ -376,3 +376,6 @@ void MSCAN_RX_IRQHandler(void) {
 	portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
 }
 ```
+
+[Original Post]: https://m0agx.eu/2017/12/27/reading-obd2-data-without-elm327-part-1-can/
+[PID Table]: https://en.wikipedia.org/wiki/OBD-II_PIDs#Mode_01
