@@ -24,6 +24,11 @@ This is a collection of all the tags I use in my blog and links back to the page
 
 * 2012-11-22 [IBM Bladecenter H NIC Mapping](/2012-11-22-ibm-bladecenter-h-nic-mapping/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
+<a name='CAN Bus'></a>
+# CAN Bus
+
+* 2019-12-27 [Repost - Reading OBD2 data without ELM327 - Part1](/2019-12-27-repost---reading-obd2-data-without-elm327---part1/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
 <a name='Car'></a>
 # Car
 
@@ -100,6 +105,12 @@ This is a collection of all the tags I use in my blog and links back to the page
 
 * 2019-12-15 [A Good Module](/2019-12-15-a-good-module/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
+<a name='Kinetis'></a>
+# Kinetis
+
+* 2019-12-27 [Repost - Reading OBD2 data without ELM327 - Part1](/2019-12-27-repost---reading-obd2-data-without-elm327---part1/?utm_source=blog&utm_medium=blog&utm_content=tags)
+* 2019-12-28 [repost - Reading OBD2 data without ELM327 - Part2](/2019-12-28-repost---reading-obd2-data-without-elm327---part2/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
 <a name='Kitchen'></a>
 # Kitchen
 
@@ -171,6 +182,12 @@ This is a collection of all the tags I use in my blog and links back to the page
 
 * 2012-05-18 [Clear bad sector count on NTFS drive](/2012-05-18-clear-bad-sector-count-on-ntfs-drive/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
+<a name='OBD2'></a>
+# OBD2
+
+* 2019-12-27 [Repost - Reading OBD2 data without ELM327 - Part1](/2019-12-27-repost---reading-obd2-data-without-elm327---part1/?utm_source=blog&utm_medium=blog&utm_content=tags)
+* 2019-12-28 [repost - Reading OBD2 data without ELM327 - Part2](/2019-12-28-repost---reading-obd2-data-without-elm327---part2/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
 <a name='old blog'></a>
 # old blog
 
@@ -225,6 +242,12 @@ This is a collection of all the tags I use in my blog and links back to the page
 # RDP
 
 * 2017-01-06 [Windows 2012 - RDP password change even when NLA is enabled](/2017-01-06-windows-2012-rdp-password-change-even-when-nla-is-enabled/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
+<a name='repost'></a>
+# repost
+
+* 2019-12-27 [Repost - Reading OBD2 data without ELM327 - Part1](/2019-12-27-repost---reading-obd2-data-without-elm327---part1/?utm_source=blog&utm_medium=blog&utm_content=tags)
+* 2019-12-28 [repost - Reading OBD2 data without ELM327 - Part2](/2019-12-28-repost---reading-obd2-data-without-elm327---part2/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
 <a name='Salter'></a>
 # Salter
