@@ -56,12 +56,16 @@ I have decided that this is the expected outcome as I will only be using the Gen
 
 ## Tests
 
-Here is the [GenericTestSuiteRepo] for all the tests.
+Here is the [GenericTestSuiteRepo] for all the generic tests.
 
+These tests check the following:
 
-```powershell
-# To Be Added
-````
+* File Encoding is UTF-8
+* Public Functions have Help
+* Module Manifest is valid
+* Exports are correct
+* Files are Signed
+
 
 # PSDepend
 
@@ -86,15 +90,27 @@ For more details see [Jenkins]
 
 ### Clean
 
+This stage prepares the environment. It uses PSDepend to install requirements to the artifact folder in the repo.
+
 ### Analyse
+
+This stage runs PSScriptAnalyzer
 
 ### BuildPS1M
 
+This Stage builds the separated ps1 files into a single PSM1
+
 ### Test
+
+This Stage first runs the Generic test suite then it will run the tests for the module functions.
 
 ### Archive
 
+This stage archives the build artifact and test results to Jenkins
+
 ### Publish
+
+This Stage publishes the PowerShell module to the nuget repository.
 
 # VScode
 
