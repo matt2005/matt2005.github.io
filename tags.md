@@ -27,7 +27,7 @@ This is a collection of all the tags I use in my blog and links back to the page
 <a name='CAN Bus'></a>
 # CAN Bus
 
-* 2019-12-27 [Repost - Reading OBD2 data without ELM327 - Part1](/2019-12-27-repost---reading-obd2-data-without-elm327---part1/?utm_source=blog&utm_medium=blog&utm_content=tags)
+* 2019-12-27 [Repost - Reading OBD2 data without ELM327 - Part1](/2019-12-27-repost-reading-obd2-data-without-elm327-part1/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
 <a name='Car'></a>
 # Car
@@ -108,8 +108,8 @@ This is a collection of all the tags I use in my blog and links back to the page
 <a name='Kinetis'></a>
 # Kinetis
 
-* 2019-12-27 [Repost - Reading OBD2 data without ELM327 - Part1](/2019-12-27-repost---reading-obd2-data-without-elm327---part1/?utm_source=blog&utm_medium=blog&utm_content=tags)
-* 2019-12-28 [repost - Reading OBD2 data without ELM327 - Part2](/2019-12-28-repost---reading-obd2-data-without-elm327---part2/?utm_source=blog&utm_medium=blog&utm_content=tags)
+* 2019-12-27 [Repost - Reading OBD2 data without ELM327 - Part1](/2019-12-27-repost-reading-obd2-data-without-elm327-part1/?utm_source=blog&utm_medium=blog&utm_content=tags)
+* 2019-12-28 [repost - Reading OBD2 data without ELM327 - Part2](/2019-12-28-repost-reading-obd2-data-without-elm327-part2/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
 <a name='Kitchen'></a>
 # Kitchen
@@ -185,8 +185,8 @@ This is a collection of all the tags I use in my blog and links back to the page
 <a name='OBD2'></a>
 # OBD2
 
-* 2019-12-27 [Repost - Reading OBD2 data without ELM327 - Part1](/2019-12-27-repost---reading-obd2-data-without-elm327---part1/?utm_source=blog&utm_medium=blog&utm_content=tags)
-* 2019-12-28 [repost - Reading OBD2 data without ELM327 - Part2](/2019-12-28-repost---reading-obd2-data-without-elm327---part2/?utm_source=blog&utm_medium=blog&utm_content=tags)
+* 2019-12-27 [Repost - Reading OBD2 data without ELM327 - Part1](/2019-12-27-repost-reading-obd2-data-without-elm327-part1/?utm_source=blog&utm_medium=blog&utm_content=tags)
+* 2019-12-28 [repost - Reading OBD2 data without ELM327 - Part2](/2019-12-28-repost-reading-obd2-data-without-elm327-part2/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
 <a name='old blog'></a>
 # old blog
@@ -246,8 +246,8 @@ This is a collection of all the tags I use in my blog and links back to the page
 <a name='repost'></a>
 # repost
 
-* 2019-12-27 [Repost - Reading OBD2 data without ELM327 - Part1](/2019-12-27-repost---reading-obd2-data-without-elm327---part1/?utm_source=blog&utm_medium=blog&utm_content=tags)
-* 2019-12-28 [repost - Reading OBD2 data without ELM327 - Part2](/2019-12-28-repost---reading-obd2-data-without-elm327---part2/?utm_source=blog&utm_medium=blog&utm_content=tags)
+* 2019-12-27 [Repost - Reading OBD2 data without ELM327 - Part1](/2019-12-27-repost-reading-obd2-data-without-elm327-part1/?utm_source=blog&utm_medium=blog&utm_content=tags)
+* 2019-12-28 [repost - Reading OBD2 data without ELM327 - Part2](/2019-12-28-repost-reading-obd2-data-without-elm327-part2/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
 <a name='Salter'></a>
 # Salter
