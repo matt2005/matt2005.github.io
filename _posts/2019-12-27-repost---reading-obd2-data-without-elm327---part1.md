@@ -46,10 +46,11 @@ OBD2 defines several modes (which can for example deliver live data, freeze fram
 
 The CAN-flavor of OBD2 comes in 4 variants:
 
-500kbps with standard (11 bit) identifiers
-250kbps with standard (11 bit) identifiers
-500kbps with extended (29 bit) identifiers
-250kbps with extended (29 bit) identifiers
+* 500kbps with standard (11 bit) identifiers
+* 250kbps with standard (11 bit) identifiers
+* 500kbps with extended (29 bit) identifiers
+* 250kbps with extended (29 bit) identifiers
+
 It is hard to predict which one is used by the car. I have chosen to simply request mode 01 PID 0x00 (that is always available) using different variants.
 
 ## Requesting a PID
@@ -57,17 +58,26 @@ It is hard to predict which one is used by the car. I have chosen to simply requ
 The message is always 8 bytes long, even if less information is required. The first byte specifies the length within payload (in this case the first byte is 2 because only the mode and PID bytes are used).
 
 PID message request (bytes):
+
+```script
 0x02 <mode> <pid> 0x00 0x00 0x00 0x00 0x00
+```
 
 For example to request mode 0x01 PID 0x0C (RPM) simply send:
+
+```script
 0x02 0x01 0x0C 0x00 0x00 0x00 0x00 0x00
+```
 
 Message ID must be **0x7DF** for standard (11 bit) addressing and **0x18DB33F1** for extended (29 bit) addressing. Each message will be acknowledged by the car.
 
 ## PID response
 
 The response will carry a message ID of **0x7E8** (standard addressing) or **0x18DAF111** (extended), so the CAN controller receive filter must pass those message IDs. Example:
+
+```script
 0x04 0x41 0x0C 0x31 0x64 0x00 0x00 0x00
+```
 
 First byte is the length of the payload field (in this case 4 bytes are valid), second byte – it is a response to mode 0x01 PID, third byte is the PID (0x0C), bytes 0x31 and 0x64 are byes A and B of the PID.
 
