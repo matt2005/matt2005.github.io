@@ -21,6 +21,13 @@ Post Description
 {{:toc}}
 
 # Content
+
+<!-- Images -->
+[1]: /img/file.jpg "File"
+
+<!-- Links -->
+[Blog]: https://matthilton2005.github.io
+
 '@ 
 
 $output = $template -f $title, $date, ($tags -join ',')
