@@ -9,6 +9,11 @@ This is a collection of all the tags I use in my blog and links back to the page
 * TOC
 {:toc}
 
+<a name='AndroidAuto'></a>
+# AndroidAuto
+
+* 2020-01-27 [A first look at OpenAuto](/2020-01-27-a-first-look-at-openauto/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
 <a name='Audi TT'></a>
 # Audi TT
 
@@ -44,6 +49,16 @@ This is a collection of all the tags I use in my blog and links back to the page
 # computer
 
 * 2012-11-22 [IBM Bladecenter H NIC Mapping](/2012-11-22-ibm-bladecenter-h-nic-mapping/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
+<a name='Crankshaft'></a>
+# Crankshaft
+
+* 2020-01-27 [A first look at OpenAuto](/2020-01-27-a-first-look-at-openauto/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
+<a name='Crankshaft-NG'></a>
+# Crankshaft-NG
+
+* 2020-01-27 [A first look at OpenAuto](/2020-01-27-a-first-look-at-openauto/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
 <a name='DRAFT'></a>
 # DRAFT
@@ -206,6 +221,11 @@ This is a collection of all the tags I use in my blog and links back to the page
 * 2015-12-23 [SSRS Subscription Auth Error](/2015-12-23-ssrs-subscription-auth-error/?utm_source=blog&utm_medium=blog&utm_content=tags)
 * 2017-01-06 [Windows 2012 - RDP password change even when NLA is enabled](/2017-01-06-windows-2012-rdp-password-change-even-when-nla-is-enabled/?utm_source=blog&utm_medium=blog&utm_content=tags)
 * 2019-12-14 [Moved from wordpress](/2019-12-14-Moved-from-wordpress/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
+<a name='openauto'></a>
+# openauto
+
+* 2020-01-27 [A first look at OpenAuto](/2020-01-27-a-first-look-at-openauto/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
 <a name='Pester'></a>
 # Pester
