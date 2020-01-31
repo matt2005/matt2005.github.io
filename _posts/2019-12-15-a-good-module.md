@@ -2,6 +2,7 @@
 layout: post
 title: "A Good Module"
 date: 2019-12-15
+comments: true
 tags: [PowerShell,PSScriptAnalyzer,Plaster,Invoke-Build,PSDepend,Pester,Jenkins,DRAFT]
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "A first look at OpenAuto"
 date: 2020-01-27
+comments: true
 tags: [openauto, AndroidAuto, Crankshaft, Crankshaft-NG]
 ---
 

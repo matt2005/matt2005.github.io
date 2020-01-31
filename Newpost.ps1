@@ -10,6 +10,7 @@ $template = @'
 layout: post
 title: "{0}"
 date: {1}
+comments: true
 tags: [{2}]
 ---
 
