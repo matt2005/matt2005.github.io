@@ -17,7 +17,7 @@ A first look at OpenAuto. This is the first post of the project.
 OpenAuto is an AndroidAuto(tm) headunit emulator based on aasdk library and Qt libraries.
 I plan to build a headunit to be a simple plug 'n' play but with the AndroidAuto support.
 
-Initially I planned to build it via source this was [original plan], but following a [rethink] I'm now using [Crankshaft-NG]. I have code build instructions the post in case I need to change this decision.
+Initially I planned to build it via source this was [original plan], but following a [rethink] I'm now using [Crankshaft-NG]. I have left the code build instructions the post in case I need to change this decision.
 
 # Hardware
 
