@@ -19,6 +19,11 @@ This is a collection of all the tags I use in my blog and links back to the page
 
 * 2012-11-07 [Audi TT Dashpod replacement 8N2 920 930 C](/2012-11-07-audi-tt-dashpod-replacement-8n2-920-930-c/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
+<a name='automating IR'></a>
+# automating IR
+
+* 2020-04-23 [A1 WiFi Smart Control - part 1](/2020-04-23-a1-wifi-smart-control-part-1/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
 <a name='Bad sector'></a>
 # Bad sector
 
@@ -65,6 +70,16 @@ This is a collection of all the tags I use in my blog and links back to the page
 
 * 2019-12-15 [A Good Module](/2019-12-15-a-good-module/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
+<a name='esp8266'></a>
+# esp8266
+
+* 2020-04-23 [A1 WiFi Smart Control - part 1](/2020-04-23-a1-wifi-smart-control-part-1/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
+<a name='esphome'></a>
+# esphome
+
+* 2020-04-23 [A1 WiFi Smart Control - part 1](/2020-04-23-a1-wifi-smart-control-part-1/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
 <a name='ethernet connections'></a>
 # ethernet connections
 
@@ -94,6 +109,11 @@ This is a collection of all the tags I use in my blog and links back to the page
 # H series
 
 * 2012-11-22 [IBM Bladecenter H NIC Mapping](/2012-11-22-ibm-bladecenter-h-nic-mapping/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
+<a name='homeassistant'></a>
+# homeassistant
+
+* 2020-04-23 [A1 WiFi Smart Control - part 1](/2020-04-23-a1-wifi-smart-control-part-1/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
 <a name='HS22'></a>
 # HS22
@@ -226,6 +246,11 @@ This is a collection of all the tags I use in my blog and links back to the page
 # openauto
 
 * 2020-01-27 [A first look at OpenAuto](/2020-01-27-a-first-look-at-openauto/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
+<a name='openmqttgateway'></a>
+# openmqttgateway
+
+* 2020-04-23 [A1 WiFi Smart Control - part 1](/2020-04-23-a1-wifi-smart-control-part-1/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
 <a name='Pester'></a>
 # Pester
