@@ -2,7 +2,7 @@
 layout: post
 title: "FireEye Agent Stopped"
 date: 2020-09-14
-tags: [FireEye,Error: 65548,Error: 1738]
+tags: [FireEye, Error 65548, Error1738]
 ---
 
 FireEye Agent Stopped and will not restart.
